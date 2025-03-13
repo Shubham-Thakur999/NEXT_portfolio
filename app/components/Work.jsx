@@ -16,7 +16,7 @@ const Work = () => {
                             <div key={index} style={{backgroundImage:`url(${project.bgImage})`}}className='aspect-square bg-no-repeat bg-cover bg-center rounded-lg relative group'>
                                 <div className='bg-white w-10/12 rounded-md absolute bottom-5 left-1/2 -translate-x-1/2 py-3 px-5 flex items-center justify-between duration-500 group-hover:bottom-7'>
                                 <div>
-                                    <h2 className='font-semibold'>{project.title}</h2>
+                                    <h2 className='font-semibold text-md text-gray-700'>{project.title}</h2>
                                     <p className='text-sm text-gray-700'>{project.description}</p>
 
                                 </div>
@@ -27,7 +27,7 @@ const Work = () => {
                             </div>
                     ))}
         </div>
-        <a href="" className='w-max flex items-center justify-center gap-2 text-gray-700 border-[0.5px] border-gray-700  rounded-full py-3 px-10 mx-auto my-20 hover:bg-lightHover duration-500'>
+        <a href="" className='w-max flex items-center justify-center gap-2 text-white-700 border-[0.5px] border-gray-700  rounded-full py-3 px-10 mx-auto my-20 hover:bg-lightHover duration-500'>
             Show more <Image src={assets.right_arrow_bold} alt='Right arrow' className='w-4'/>
         </a>
     </div>
