@@ -13,8 +13,8 @@ const About = () => {
                 <Image src={assets.user_image} alt='user' className='w-full rounded-3xl'/>
             </div>
             <div className='flex-1'>
-                <p className='mb-10 max-w-2xl font-Ovo'>I am an experienced Full-stack Web Developer with years of experience in the field.
-            Throughout my carrer, I have had the privilege of collaborating with prestigious organisations,
+                <p className='mb-10 max-w-2xl font-Ovo'>I am an experienced Full-stack Web Developer with years of experience and technical know how in the field.
+            Throughout my carrer, I have had the privilege of collaborating with numerous individuals and organisations,
             contributing to thier sucess and growth.
                 </p>
 
