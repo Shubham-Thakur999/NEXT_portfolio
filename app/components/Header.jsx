@@ -14,7 +14,7 @@ const Header = () => {
             Full stack web developer based in India.
         </h1>
         <p className='m-x-2xl mx-auto '>
-            I am a full-stack developer from Gujarat,India with 2 years of experience in web-developement.
+            I am a full-stack developer from Gujarat,India with a good experience of working on multiple projects and technologies in web-developement.
         </p>
         <div className='flex flex-col sm:flex-row items-center gap-4 mt-4'>
             <a href="#contact"className='px-10 py-3 border border-white rounded-full bg-black text-white flex items-center gap-2' >contact me<Image src={assets.right_arrow_white} alt='' className=' w-4'/></a>
