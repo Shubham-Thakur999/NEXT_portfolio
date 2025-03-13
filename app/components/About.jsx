@@ -20,7 +20,7 @@ const About = () => {
 
                 <ul className='grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-2xl'>
                     {infoList.map(({icon,iconDark,title,description},index)=>(
-                            <li key={index} className='border-[0.5px] border-gray-400 rounded-xl p-6 cursor-pointer hover:bg-white hover:-translate-y-1 duration-500'>
+                            <li key={index} className='border-[0.5px] border-gray-400 rounded-xl p-6 cursor-pointer hover:-translate-y-1 duration-500'>
                                 {/* just set ng-white above to change baxkground as black when hovered over this element,we don't have that right color yet for hover so just used it for experiment.  */}
                                 <Image src={icon} alt={title} className='w-7 mt-3'/>
                                 <h3 className='my-4 font-semibold text-white-700'>{title}</h3>
