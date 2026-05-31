@@ -1,7 +1,6 @@
 import { Outfit, Ovo } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "./context/ThemeContext";
-// import { Analytics } from "@vercel/analytics/react";
 
 const outfit = Outfit({
   subsets: ["latin"],
@@ -25,7 +24,6 @@ export default function RootLayout({ children }) {
       >
         <ThemeProvider>
           {children}
-          // <Analytics />
         </ThemeProvider>
       </body>
     </html>
